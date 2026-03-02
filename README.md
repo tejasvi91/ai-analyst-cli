@@ -35,16 +35,6 @@ User CLI Command
 → Print Result  
 
 ---
-
-## 🖥 Example Usage
-
-```bash
-python main.py summarize sample.csv
-python main.py ask sample.csv "Why did revenue drop in March?"
-python main.py insights sample.csv
-
----
-
 ---
 ## 🧠 Engineering Focus
 
@@ -74,5 +64,17 @@ Langfuse integration for advanced tracing
 Multi-agent workflow orchestration
 API layer with FastAPI
 Cloud deployment
+
+## 🖥 Example Usage
+
+```bash
+python main.py summarize sample.csv
+python main.py ask sample.csv "Why did revenue drop in March?"
+python main.py insights sample.csv
+
+---
+
+
 Structured output validation
 ---
+
