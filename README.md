@@ -35,19 +35,16 @@ User CLI Command
 → Print Result  
 
 ---
----
 ## 🧠 Engineering Focus
 
 This project explores:
-
 Context engineering for LLM workflows
 Prompt structuring for analytical reasoning
 Lightweight observability (evaluation logging)
 Modular Python backend design
 CLI-based internal AI tooling patterns
 ---
-
-## 📁 **Project Structure**
+## 📁 Project Structure
 ai-analyst-cli/
 │
 ├── main.py
@@ -58,23 +55,19 @@ ai-analyst-cli/
 ├── .gitignore
 └── README.md
 ---
-##🚀 **Future Improvements**
+##🚀 Future Improvements
 
 Langfuse integration for advanced tracing
 Multi-agent workflow orchestration
 API layer with FastAPI
 Cloud deployment
+Structured output validation
 
+---
 ## 🖥 Example Usage
 
 ```bash
 python main.py summarize sample.csv
 python main.py ask sample.csv "Why did revenue drop in March?"
 python main.py insights sample.csv
-
----
-
-
-Structured output validation
----
 
